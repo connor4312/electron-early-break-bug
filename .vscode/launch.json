@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "name": "Electron View",
+          "type": "chrome",
+          "request": "launch",
+          "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron",
+          "windows": {
+              "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron.cmd"
+          },
+          "trace": {
+              "logFile": "${workspaceRoot}/log.txt",
+          },
+          "runtimeArgs": [
+              "${workspaceRoot}",
+              "--remote-debugging-port=9222"
+          ],
+          "webRoot": "${workspaceRoot}"
+      }
+  ]
+}

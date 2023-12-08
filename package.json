@@ -1,0 +1,18 @@
+{
+  "name": "elderly-cloud-share-od2g0",
+  "productName": "elderly-cloud-share-od2g0",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "connor4312",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "chrome-remote-interface": "0.33.0"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0"
+  }
+}
